@@ -92,6 +92,7 @@
   margin-top: 1.5rem;
   opacity: 0;
   pointer-events: none;
+  transition: opacity 350ms ease-in;
 
   @media (min-width: $stop-scaling) {
     margin-top: 15px;
@@ -147,21 +148,17 @@
 
   .social-block--active & li {
     transform: translateY(0);
-    opacity: 1;
   }
 
   li {
     flex: none;
     margin-bottom: 0.5rem;
-    transform: translateY(10px);
-    opacity: 0;
-    transition:
-      transform 300ms ease,
-      opacity 300ms ease;
+    transform: translateY(2rem);
+    transition: transform 300ms ease;
 
     @for $i from 1 through 3 {
       &:nth-child(#{$i}) {
-        transition-delay: #{$i * 100}ms;
+        transition-delay: #{$i * 70}ms;
       }
     }
 
