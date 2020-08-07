@@ -5,10 +5,12 @@
   position: fixed;
   bottom: 0;
   opacity: 0;
-  transition: height 3s ease;
+  transition: height 1s ease;
 
-  .screen--prizes.active ~ & {
+
+  .screen--story.before-be-hidden ~ & {
     height: 100%;
     opacity: 1;
+    z-index: 1;
   }
 }
