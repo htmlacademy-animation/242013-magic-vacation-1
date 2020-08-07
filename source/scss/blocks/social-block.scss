@@ -35,6 +35,9 @@
     background-color: $c-light;
     border: 2px solid $c-light;
     z-index: -1;
+    transition:
+      width 300ms ease-out,
+      height 300ms ease-out;
   }
 
   svg {
@@ -89,6 +92,7 @@
   margin-top: 1.5rem;
   opacity: 0;
   pointer-events: none;
+  transition: opacity 350ms ease-in;
 
   @media (min-width: $stop-scaling) {
     margin-top: 15px;
@@ -142,9 +146,21 @@
     pointer-events: auto;
   }
 
+  .social-block--active & li {
+    transform: translateY(0);
+  }
+
   li {
     flex: none;
     margin-bottom: 0.5rem;
+    transform: translateY(2rem);
+    transition: transform 300ms ease;
+
+    @for $i from 1 through 3 {
+      &:nth-child(#{$i}) {
+        transition-delay: #{$i * 70}ms;
+      }
+    }
 
     @media (min-width: $stop-scaling) {
       margin-bottom: 5px;
