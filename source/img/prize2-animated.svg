@@ -1,34 +1,36 @@
-<svg width="350" height="330" viewBox="0 0 350 330" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 350 330" fill="none" xmlns="http://www.w3.org/2000/svg">
   <g id="secondary-award-from 1">
     <animate id="a_initial" attributeType="CSS" attributeName="opacity" values="0; 1" dur="330ms" />
     <g id="leaf_big">
       <path id="leaf_big_body" d="M263.47 206.82C263.795 206.58 264.184 206.444 264.588 206.43C264.991 206.415 265.39 206.524 265.731 206.74C266.072 206.956 266.339 207.271 266.498 207.642C266.656 208.013 266.699 208.424 266.62 208.82C265.62 215.82 264.55 229.15 271.47 228.22C276.41 227.56 254.82 196.69 290.79 190.06C291.162 189.982 291.548 190.011 291.903 190.145C292.259 190.278 292.569 190.51 292.797 190.813C293.026 191.116 293.164 191.478 293.194 191.856C293.225 192.235 293.147 192.614 292.97 192.95C291.65 195.69 290.14 199.56 290.24 202.85C290.248 203.283 290.396 203.702 290.663 204.044C290.93 204.386 291.301 204.632 291.719 204.744C292.138 204.857 292.582 204.831 292.984 204.67C293.386 204.508 293.725 204.221 293.95 203.85C298.05 197.7 309.05 185.99 330.54 193.15C330.883 193.261 331.189 193.463 331.427 193.734C331.665 194.005 331.825 194.335 331.89 194.69C332.82 199.49 336.02 217.93 331.6 223.41C326.51 229.72 316.6 227.55 315.42 233.66C314.12 240.57 322.93 238.48 328.84 233.44C329.138 233.177 329.507 233.008 329.9 232.956C330.294 232.903 330.695 232.969 331.051 233.145C331.407 233.321 331.703 233.599 331.9 233.943C332.098 234.288 332.188 234.684 332.16 235.08C331.91 240.53 329.98 249.08 321.04 253.77C307.26 260.98 297.56 246.77 295.85 249.89C293.26 254.55 303.79 258.36 309.63 260.07C310.001 260.168 310.336 260.371 310.595 260.654C310.855 260.938 311.026 261.29 311.091 261.669C311.155 262.047 311.109 262.436 310.958 262.789C310.807 263.143 310.558 263.445 310.24 263.66C299.72 271.4 281.11 273.94 273.24 258.25C264.94 241.66 260.31 245.76 255.05 237.87C249.34 229.3 250.72 215.33 263.43 206.82H263.47ZM292.83 239.29C293.33 242.02 298.03 242.8 301.18 242.23C304.33 241.66 309.65 238.4 309.18 235.67C308.71 232.94 302.56 231.77 299.4 232.34C296.24 232.91 292.35 236.56 292.85 239.29" fill="#E81A5A">
-        <animateTransform attributeName="transform" type="rotate" values="0 268 247; 5 268 247; 0 268 247" dur="4s" repeatCount="indefinite" additive="sum" />
+        <animateTransform attributeName="transform" type="rotate" values="4 245 327; -3 245 327; 4 245 327" dur="1400ms" repeatCount="indefinite" calcMode="spline" keySplines="0.33 0 0.67 1; 0.33 0 0.67 1" />
       </path>
       <path id="leaf_big_bottom" d="M263 327.88C263 327.88 258.09 257.61 268.54 247.16" stroke="#E81A5A" stroke-width="2" stroke-miterlimit="10" />
     </g>
     <g id="clouds">
-      <animate begin="a_motion_luggage.end - 200ms" attributeType="CSS" attributeName="opacity" values="1; 0" dur="500ms" fill="freeze" />
+      <animateMotion begin="400ms" values="0 0; 0 -200" dur="733ms" />
+      <animate attributeType="CSS" attributeName="opacity" values="1;0" dur="733ms" calcMode="spline" keySplines="0.33 0 0.67 1" fill="freeze" />
       <g id="cloud_top">
-        <animateMotion values="50 0; 0 0" dur="330ms" />
-        <animateMotion begin="a_motion_luggage.end - 200ms" values="0 0; 0 -100" dur="500ms" />
-        <path d="M65.43 77.72H105.21" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" />
+      <animate attributeType="CSS" attributeName="opacity" values="0;1" dur="167ms" calcMode="spline" keySplines="0.33 0 0.67 1" />
+      <animateMotion values="90 0; 0 0" dur="400ms" />
+       <path d="M65.43 77.72H105.21" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" />
         <path d="M85.22 67.45H57.86C57.86 64.1613 56.5536 61.0073 54.2281 58.6819C51.9027 56.3564 48.7487 55.05 45.46 55.05C42.1713 55.05 39.0173 56.3564 36.6919 58.6819C34.3664 61.0073 33.06 64.1613 33.06 67.45H15.13" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" />
         <path d="M93.48 67.45H115.68" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" />
       </g>
       <g id="cloud_bottom">
-        <animateMotion values="100 0; 0 0" dur="330ms" calcMode="spline" keySplines="0 0.04 0.325 1" />
-        <animateMotion begin="a_motion_luggage.end - 300ms" values="0 0; 0 -100" dur="500ms" />
+        <animate attributeType="CSS" attributeName="opacity" values="0;1" dur="167ms" calcMode="spline" keySplines="0.33 0 0.67 1" />
+        <animateMotion values="60 0; 0 0" dur="400ms" />
         <path d="M235.77 119H216.32C216.198 110.896 213.305 103.078 208.124 96.8464C202.942 90.6144 195.784 86.3436 187.838 84.744C179.893 83.1444 171.64 84.3125 164.45 88.0539C157.261 91.7954 151.569 97.8849 148.32 105.31C144.378 103.122 139.939 101.982 135.43 102C130.068 102.018 124.835 103.649 120.412 106.681C115.989 109.713 112.581 114.005 110.63 119H95.48C92.6952 119 90.0245 120.106 88.0554 122.075C86.0863 124.045 84.98 126.715 84.98 129.5C84.98 132.285 86.0863 134.955 88.0554 136.925C90.0245 138.894 92.6952 140 95.48 140H235.78C238.565 140 241.235 138.894 243.205 136.925C245.174 134.955 246.28 132.285 246.28 129.5C246.28 126.715 245.174 124.045 243.205 122.075C241.235 120.106 238.565 119 235.78 119" fill="white" />
         <path d="M272.13 145.27H311.9" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" />
         <path d="M300.17 135H322.37" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" />
       </g>
     </g>
-    <g>
+    <g transform="translate(-215 -273)">
+        <animateMotion id="a_motion_luggage" dur="1739ms" additive="sum" path="M179 111C203.19 101.76 208.8 95.16 208.42 90.56C207.18 75.43 138.73 51.78 96 84C93.07 86.21 64.34 108.52 67 138C70.54 177.18 126.83 199.15 142.7 205.35C196.35 226.29 237.13 214.14 244.48 232.53C247.37 239.78 245.26 252.22 223 275" fill="freeze" />
       <g id="luggage">
         <animateTransform attributeName="transform" type="translate" values="215 273" />
-        <animateMotion id="a_motion_luggage" dur="1550ms" additive="sum" path="M179 111C203.19 101.76 208.8 95.16 208.42 90.56C207.18 75.43 138.73 51.78 96 84C93.07 86.21 64.34 108.52 67 138C70.54 177.18 126.83 199.15 142.7 205.35C196.35 226.29 237.13 214.14 244.48 232.53C247.37 239.78 245.26 252.22 223 275" />
-        <animateTransform attributeName="transform" type="scale" values="0.3; 1" dur="1550ms" additive="sum" />
+        <animateTransform attributeName="transform" type="scale" values="0.1; 1" dur="1433ms" additive="sum" calcMode="spline" keySplines="0.33, 0, 0.67, 1" />
+        <animateTransform attributeName="transform" type="rotate" values="30 215 273; -30 215 273; 20 215 273; 18 215 273; -6 215 273; 0 215 273" dur="1367ms" additive="sum"/>
         <animateTransform attributeName="transform" type="translate" values="-215 -273" additive="sum" />
         <g>
           <path d="M251.89 328.88C252.825 328.877 253.722 328.505 254.383 327.843C255.045 327.182 255.417 326.285 255.42 325.35V320.28C255.42 319.344 255.048 318.446 254.386 317.784C253.724 317.122 252.826 316.75 251.89 316.75C250.954 316.75 250.056 317.122 249.394 317.784C248.732 318.446 248.36 319.344 248.36 320.28V325.35C248.365 326.285 248.739 327.179 249.4 327.84C250.061 328.501 250.955 328.875 251.89 328.88" fill="#A67EE5" />
@@ -60,12 +62,12 @@
       </g>
     </g>
     <g id="leaf_small">
-      <animateTransform attributeName="transform" type="rotate" values="0 245 327; 5 245 327; 0 245 327" dur="4s" repeatCount="indefinite" additive="sum" />
+      <animateTransform attributeName="transform" type="rotate" values="6 245 327; -4 245 327; 6 245 327" dur="1400ms" repeatCount="indefinite" calcMode="spline" keySplines="0.33 0 0.67 1; 0.33 0 0.67 1" />
       <path d="M322.92 283.4C323.203 283.676 323.404 284.024 323.501 284.407C323.598 284.79 323.588 285.193 323.47 285.57C322.41 289 318.89 298.42 311.37 301.91C306.24 304.29 303.04 299.21 300.45 302.68C297.86 306.15 302.55 307.68 307.37 306.99C307.786 306.922 308.213 306.977 308.599 307.149C308.984 307.32 309.311 307.601 309.538 307.956C309.766 308.311 309.885 308.726 309.88 309.147C309.874 309.569 309.746 309.98 309.51 310.33C308.252 312.319 306.524 313.968 304.479 315.131C302.433 316.294 300.132 316.936 297.78 317C286.94 317.27 285.23 305.42 283.21 306.81C280.49 308.7 284.48 313.36 287.6 316.38C287.899 316.667 288.109 317.034 288.206 317.437C288.302 317.84 288.28 318.262 288.143 318.653C288.006 319.044 287.76 319.388 287.433 319.642C287.106 319.897 286.713 320.053 286.3 320.09C277.54 320.93 266.58 316.58 266.5 305.09C266.42 292.15 262.25 293.29 261.39 286.74C260.48 279.86 265.27 271.86 275.13 270.05C275.527 269.978 275.935 270.018 276.31 270.166C276.685 270.314 277.011 270.563 277.252 270.887C277.492 271.211 277.637 271.595 277.67 271.997C277.704 272.398 277.624 272.801 277.44 273.16C275.03 277.89 271.44 285.76 274.62 285.72C278.08 285.72 273.04 263.14 303.05 270.46C303.412 270.549 303.745 270.731 304.016 270.987C304.287 271.243 304.487 271.565 304.597 271.921C304.707 272.278 304.722 272.657 304.642 273.021C304.562 273.385 304.389 273.722 304.14 274L304.04 274.11C303.713 274.473 303.519 274.935 303.489 275.422C303.459 275.91 303.595 276.392 303.874 276.793C304.154 277.193 304.56 277.486 305.028 277.626C305.496 277.765 305.997 277.742 306.45 277.56C310.11 276.04 315.61 276.29 322.92 283.4" fill="#FE6183" />
       <path d="M245.13 327.88C245.13 327.88 248.61 297.77 266.83 297.77" stroke="#FE6183" stroke-width="2" stroke-miterlimit="10" />
     </g>
     <g id="ground">
-      <animateTransform attributeName="transform" type="translate" values="-100 0; 0 0" dur="330ms" begin="a_initial.begin" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" values="-100 0; 0 0" dur="233ms" fill="freeze" calcMode="spline" keySplines="0.17, -0.17, 0.01, 1" />
       <path d="M147.13 328.88H283.79" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" />
     </g>
   </g>
